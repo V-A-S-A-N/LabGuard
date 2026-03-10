@@ -1,0 +1,240 @@
+Time,SystemID,DeviceName,DeviceID,Event
+2025-03-24 08:31:59,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:32:09,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 08:32:09,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 08:32:09,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 08:32:09,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 08:33:20,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:33:20,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 08:33:20,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 08:33:20,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 08:33:20,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 08:34:19,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:34:19,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 08:34:19,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 08:34:19,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 08:34:19,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 08:36:39,0x83dfd3a93d25,USB Input Device (Other),USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Deletion
+2025-03-24 08:36:55,0x83dfd3a93d25,USB Input Device (Other),USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Creation
+2025-03-24 08:38:19,0x83dfd3a93d25,USB Input Device (Other),USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Deletion
+2025-03-24 08:38:29,0x83dfd3a93d25,USB Input Device (Other),USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Creation
+2025-03-24 08:38:35,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:38:35,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 08:38:35,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 08:38:35,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 08:38:35,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 08:54:33,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:54:54,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:54:55,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 08:54:55,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 08:54:55,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 08:54:55,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 08:59:20,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 08:59:23,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 08:59:23,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 08:59:23,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 08:59:23,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:00:23,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:00:33,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:00:33,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:00:33,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:00:33,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:03:44,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:03:45,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:03:45,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:03:45,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:03:45,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:04:39,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:04:49,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:04:49,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:04:49,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:30:48,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:30:58,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:30:58,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:30:58,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:30:58,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:32:26,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:32:26,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:32:26,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:32:26,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:32:26,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:32:49,0x83dfd3a93d25,USB Input Device (Other),USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Deletion
+2025-03-24 09:33:08,0x83dfd3a93d25,USB Input Device (Other),USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Creation
+2025-03-24 09:43:38,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:43:48,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:43:48,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:43:48,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:43:48,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:45:36,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:45:46,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:45:46,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:45:46,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:45:46,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to None
+2025-03-24 09:50:07,0x83dfd3a93d25,Initial USB Devices,,Connected: None
+2025-03-24 09:50:17,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:50:17,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:50:17,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:50:17,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to Other
+2025-03-24 09:53:48,0x83dfd3a93d25,Initial USB Devices,,"Connected: USB 1, USB 2, USB 3, USB 4, USB 5, USB 6, USB 7, USB 8, USB 9"
+2025-03-24 09:53:48,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:53:48,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:53:48,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:53:48,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to USB 1, USB 2, USB 3, USB 4, USB 5, USB 6, USB 7, USB 8, USB 9"
+2025-03-24 09:59:50,0x83dfd3a93d25,Initial USB Devices,,Connected: Other (8)
+2025-03-24 09:59:51,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 09:59:51,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 09:59:51,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 09:59:51,0x83dfd3a93d25,USB Devices,,USB Devices changed from Unknown to Other (8)
+2025-03-24 10:02:49,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 10:02:49,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 10:02:49,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 10:02:49,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 10:02:49,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 10:05:16,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 10:05:16,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 10:05:16,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 10:05:16,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 10:05:16,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 10:07:29,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 10:07:29,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 10:07:29,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 10:07:29,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 10:07:29,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:39:45,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:40:13,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:40:19,0x83dfd3a93d25,Initial USB Devices,,"Connected: USB 1, USB 2, USB 3, USB 4, USB 5, USB 6, USB 7, USB 8, USB 9"
+2025-03-24 11:40:20,0x83dfd3a93d25,CPU,,CPU changed from Unknown to Present
+2025-03-24 11:40:20,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 11:40:20,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 11:40:20,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to USB 1, USB 2, USB 3, USB 4, USB 5, USB 6, USB 7, USB 8, USB 9"
+2025-03-24 11:40:46,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:41:36,0x83dfd3a93d25,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Deletion
+2025-03-24 11:41:46,0x83dfd3a93d25,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Creation
+2025-03-24 11:43:40,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:44:24,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:47:30,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:47:40,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 11:47:40,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 11:47:40,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 11:47:40,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:49:27,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:49:27,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 11:49:27,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 11:49:27,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 11:49:27,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:49:46,0x83dfd3a93d25,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Deletion
+2025-03-24 11:49:50,0x83dfd3a93d25,USB Devices,,"USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:49:53,0x83dfd3a93d25,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Creation
+2025-03-24 11:50:01,0x83dfd3a93d25,USB Devices,,"USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:53:40,0x83dfd3a93d25,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Deletion
+2025-03-24 11:53:47,0x83dfd3a93d25,USB Devices,,"USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:53:48,0x83dfd3a93d25,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Device Creation
+2025-03-24 11:57:35,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 11:57:35,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 11:57:35,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 11:57:35,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 11:57:35,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 13:27:30,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 13:27:30,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 13:27:30,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 13:27:30,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 13:27:30,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 13:27:42,0x83dfd3a93d25,USB Input Device,USB\VID_1A2C&PID_0043\5&52206AA&0&1,Device Creation
+2025-03-24 13:27:51,0x83dfd3a93d25,USB Devices,,"USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device (2), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 13:54:19,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device (2), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 13:54:19,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 13:54:19,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 13:54:19,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 13:54:19,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device (2), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 19:46:26,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 19:46:36,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 19:46:36,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 19:46:36,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 19:46:36,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 19:50:40,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 19:50:50,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 20:30:26,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:30:28,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 20:30:28,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 20:30:28,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 20:30:28,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:33:49,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:33:49,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 20:33:49,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 20:33:49,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 20:33:49,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:43:19,0x83dfd3a93d25,Initial USB Devices,,Initial Status
+2025-03-24 20:43:21,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 20:43:21,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 20:43:21,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 20:43:21,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:50:40,0x83dfd3a93d25,Initial USB Devices,,Initial Status
+2025-03-24 20:50:40,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 20:50:40,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 20:50:40,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 20:50:40,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:54:28,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 20:54:30,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 20:54:30,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Connected
+2025-03-24 20:56:35,0x83dfd3a93d25,Initial USB Devices,,Initial Status
+2025-03-24 20:56:35,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-24 20:56:35,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 20:56:35,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 20:56:35,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 21:04:17,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 21:04:17,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 21:04:17,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Connected
+2025-03-24 21:04:17,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-24 21:04:17,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-24 21:07:10,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 21:07:10,0x83dfd3a93d25,USB Devices,,"Anomaly USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-24 21:07:10,0x83dfd3a93d25,Ethernet,,Anomaly Ethernet changed from Unknown to Connected
+2025-03-24 21:07:10,0x83dfd3a93d25,GPU,,Anomaly GPU changed from Unknown to Present
+2025-03-24 21:07:10,0x83dfd3a93d25,Monitor,,Anomaly Monitor changed from Unknown to Present
+2025-03-24 21:15:58,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 21:16:00,0x83dfd3a93d25,Monitor,,Anomaly Monitor changed from Unknown to Present
+2025-03-24 21:24:05,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 21:27:19,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 21:27:48,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-24 21:34:47,0x83dfd3a93d25,Initial Status,,Initial Status
+2025-03-25 08:22:47,1,Initial Status,,Initial Status
+2025-03-25 08:24:06,1,Initial Status,,Initial Status
+2025-03-25 08:27:26,1,Ethernet,,Anomaly Ethernet changed from Connected to Disconnected
+2025-03-25 08:27:48,1,Ethernet,,Anomaly Ethernet changed from Disconnected to Connected
+2025-03-25 09:42:27,1,Initial Status,,Initial Status
+2025-03-25 09:49:41,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Deletion
+2025-03-25 09:49:50,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Creation
+2025-03-25 09:56:29,1,Initial Status,,Initial Status
+2025-03-25 09:56:34,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Removal
+2025-03-25 09:56:43,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Connected
+2025-03-25 09:56:41,1,USB Devices,,"Anomaly USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-25 09:56:53,1,USB Devices,,"Anomaly USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-25 09:58:02,1,Initial Status,,Initial Status
+2025-03-25 09:58:10,1,Initial Status,,Initial Status
+2025-03-25 09:58:25,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Removal
+2025-03-25 09:58:32,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Connected
+2025-03-25 10:00:53,1,Initial Status,,Initial Status
+2025-03-25 10:02:04,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Removal
+2025-03-25 10:02:09,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Connected
+2025-03-25 10:07:20,1,Initial Status,,Initial Status
+2025-03-25 10:08:03,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Removal
+2025-03-25 10:08:08,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Connected
+2025-03-26 10:42:03,1,Initial Status,,Initial Status
+2025-03-26 11:59:33,0x83dfd3a93d25,Initial USB Devices,,Initial Status
+2025-03-26 11:59:35,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected
+2025-03-26 11:59:35,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present
+2025-03-26 11:59:35,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present
+2025-03-26 11:59:35,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-26 12:01:55,1,Initial Status,,Initial Status
+2025-03-26 12:02:24,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Removal
+2025-03-26 12:02:33,1,USB Devices,,"Anomaly USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-03-26 12:02:38,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Connected
+2025-03-26 12:02:46,1,USB Devices,,"Anomaly USB Devices changed from ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device to ACER HD User Facing, Camera DFU Device, USB Composite Device, USB Input Device, USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device"
+2025-04-07 13:04:56,1,Initial Status,,Initial Status
+2025-04-07 13:05:09,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Removal
+2025-04-07 13:10:07,1,Initial Status,,Initial Status
+2025-04-07 13:10:20,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Connected
+2025-04-07 13:21:28,1,Initial Status,,Initial Status
+2025-04-07 13:21:52,1,USB Input Device,USB\VID_30FA&PID_0400\5&52206AA&0&4,Anomaly Device Connected
+2025-04-07 14:10:08,1,System,Heartbeat,
+2025-04-07 14:10:35,1,USB,Status change: 11 -> 10,

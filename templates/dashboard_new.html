@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Device Monitor</title>
+  <!-- Removed meta refresh to rely on SSE updates -->
+  <link rel="stylesheet" href="../static/dashboard.css">
+</head>
+<body>
+  <body>
+    <div class="sidebar">
+      <h2>Recent Anomalies</h2>
+      {% for anomaly in anomalies %}
+        <div class="anomaly-entry">
+          <div class="anomaly-header">
+            {{ anomaly.system_id }}
+            <span class="anomaly-time">{{ anomaly.timestamp }}</span>
+          </div>
+          <div>{{ anomaly.event }}</div>
+        </div>
+      {% else %}
+        <p>No recent anomalies</p>
+      {% endfor %}
+    </div>
+  
+    <div class="main-content">
+      <h1>Connected Devices</h1>
+      <table>
+        <tr>
+          <th>System ID</th>
+          <th>IP Address</th>
+          <th>Last Seen</th>
+          <th>Shutdown</th>
+          <th>Status</th>
+        </tr>
+        {% for system in systems %}
+          <tr class="system-row">
+            <td>
+              <span class="system-id" data-system-id="{{ system.system_id }}">
+                {{ system.system_id }}
+              </span>
+              <!-- Anomaly indicator will be added dynamically via JS -->
+            </td>
+            <td>{{ system.ip }}</td>
+            <td>{{ system.last_seen }}</td>
+            <td>
+              <form class="shutdown" method="POST" action="{{ url_for('shutdown_system', index=loop.index0) }}">
+                <button type="submit">Shutdown</button>
+              </form>
+            </td>
+            <td>{{ system.status }}</td>
+          </tr>
+          <tr class="details-row" style="display: none;">
+            <td colspan="5">
+              {% if system.status_details is mapping %}
+                <h3>Device Details for {{ system.system_id }}</h3>
+                <ul>
+                  {% for device, status in system.status_details.items() %}
+                    <li>{{ device }}: {{ status }}</li>
+                  {% endfor %}
+                </ul>
+              {% else %}
+                <p>No detailed status available</p>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+
+  <script>
+    // --- SSE Integration ---
+    // Open an SSE connection to the backend /sse endpoint.
+    const eventSource = new EventSource("/sse");
+
+    eventSource.onmessage = function(event) {
+      const data = JSON.parse(event.data);
+      console.log("Received SSE update:", data);
+      // Depending on the update, refresh only the affected parts.
+      if (data.updateSidebar) {
+        updateSidebar();
+      }
+      if (data.updateDevices) {
+        updateMainContent();
+      }
+    };
+
+    eventSource.onerror = function(error) {
+      console.error("SSE error:", error);
+      // Optionally implement reconnection logic.
+    };
+
+    // Function to update the sidebar (recent anomalies)
+    function updateSidebar() {
+      fetch('/sidebar')
+        .then(response => response.text())
+        .then(html => {
+          document.querySelector('.sidebar').innerHTML = html;
+        })
+        .catch(error => console.error('Error updating sidebar:', error));
+    }
+
+    // Function to update the main content (connected devices)
+    function updateMainContent() {
+      fetch('/devices')
+        .then(response => response.text())
+        .then(html => {
+          // Replace only the main content area while preserving other UI elements.
+          document.querySelector('.main-content').innerHTML = html;
+        })
+        .catch(error => console.error('Error updating main content:', error));
+    }
+
+    // --- Existing UI Functionality ---
+    // Dynamic anomaly indicator: add an indicator if a system has recent anomalies.
+    function updateAnomalyIndicators(anomalies) {
+      anomalies.forEach(function(anomaly) {
+        // Skip anomalies that should not trigger an indicator.
+        if (anomaly.event === "initial status details" || anomaly.event === "status details") {
+          return;
+        }
+        // Find all system-id elements matching the anomaly's system id.
+        var systemIdElements = document.querySelectorAll('.system-id[data-system-id="'+anomaly.system_id+'"]');
+        systemIdElements.forEach(function(elem) {
+          var parentTd = elem.parentElement;
+          var indicator = parentTd.querySelector('.anomaly-indicator');
+          if (!indicator) {
+            // Create the indicator if it doesn't exist.
+            indicator = document.createElement('span');
+            indicator.className = 'anomaly-indicator';
+            indicator.title = "Recent anomalies detected";
+            indicator.innerHTML = "❗";
+            parentTd.appendChild(indicator);
+          } else {
+            // Otherwise, ensure it is visible.
+            indicator.style.display = "inline";
+          }
+        });
+      });
+    }
+
+    // --- Existing UI Event Listeners ---
+    document.addEventListener('DOMContentLoaded', function() {
+      // Functions to work with localStorage for open details rows.
+      function getOpenDetails() {
+        var open = localStorage.getItem('open_details');
+        return open ? JSON.parse(open) : [];
+      }
+      function setOpenDetails(openList) {
+        localStorage.setItem('open_details', JSON.stringify(openList));
+      }
+
+      // Handle shutdown form submissions.
+      document.querySelectorAll('form.shutdown').forEach(function(form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const row = form.closest('tr');
+          if (row) {
+            row.parentNode.removeChild(row);
+          }
+          fetch(form.action, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+          }).then(response => {
+            if (!response.ok) {
+              console.error('Shutdown request failed.');
+            }
+          }).catch(error => {
+            console.error('Error during shutdown request:', error);
+          });
+        });
+      });
+
+      // Toggle details row on system-id click.
+      document.querySelectorAll('.system-id').forEach(function(element) {
+        element.addEventListener('click', function() {
+          var detailsRow = this.closest('tr').nextElementSibling;
+          var systemId = this.getAttribute('data-system-id');
+          var openList = getOpenDetails();
+
+          if (detailsRow && detailsRow.classList.contains('details-row')) {
+            if (detailsRow.style.display === 'none' || detailsRow.style.display === '') {
+              detailsRow.style.display = 'table-row';
+              detailsRow.classList.remove('show');
+              void detailsRow.offsetWidth; // Force reflow.
+              detailsRow.classList.add('show');
+              if (!openList.includes(systemId)) {
+                openList.push(systemId);
+                setOpenDetails(openList);
+              }
+            } else {
+              detailsRow.classList.remove('show');
+              setTimeout(function() {
+                detailsRow.style.display = 'none';
+                var openList = getOpenDetails();
+                openList = openList.filter(id => id !== systemId);
+                setOpenDetails(openList);
+              }, 400);
+            }
+          }
+        });
+      });
+
+      // Restore open details rows on page load.
+      var openList = (function() {
+        var open = localStorage.getItem('open_details');
+        return open ? JSON.parse(open) : [];
+      })();
+      document.querySelectorAll('.system-id').forEach(function(element) {
+        var systemId = element.getAttribute('data-system-id');
+        if (openList.includes(systemId)) {
+          var detailsRow = element.closest('tr').nextElementSibling;
+          if (detailsRow && detailsRow.classList.contains('details-row')) {
+            detailsRow.style.display = 'table-row';
+            detailsRow.classList.add('show');
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
