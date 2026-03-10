@@ -1,0 +1,41 @@
+Timestamp,SystemID,DeviceName,DeviceID,Event,SenderIP
+2025-03-24 08:51:53,0x74d4dd755f0b,Initial USB Devices,,Connected: Other,192.168.233.153
+2025-03-24 08:53:04,0x74d4dd755f0b,USB Input Device (Other),USB\VID_30FA&PID_0400\5&312D6F6A&0&3,Device Removal,192.168.233.153
+2025-03-24 08:53:13,0x74d4dd755f0b,USB Input Device,USB\VID_30FA&PID_0400\5&312D6F6A&0&3,Device Connection,192.168.233.153
+2025-03-24 08:53:28,0x74d4dd755f0b,USB Input Device (Other),USB\VID_30FA&PID_0400\5&312D6F6A&0&3,Device Removal,192.168.233.153
+2025-03-24 08:53:31,0x74d4dd755f0b,USB Input Device,USB\VID_30FA&PID_0400\5&312D6F6A&0&3,Device Connection,192.168.233.153
+2025-03-24 08:53:40,0x74d4dd755f0b,Heartbeat,,No heartbeat received – system not responding,N/A
+2025-03-24 20:30:28,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected,127.0.0.1
+2025-03-24 20:30:28,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 20:30:28,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 20:30:28,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 20:33:49,0x83dfd3a93d25,Initial USB Devices,,"Connected: ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 20:33:49,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected,127.0.0.1
+2025-03-24 20:33:49,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 20:33:49,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 20:33:49,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 20:36:59,0x83dfd3a93d25,Heartbeat,,No heartbeat received – system not responding,N/A
+2025-03-24 20:43:21,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected,127.0.0.1
+2025-03-24 20:43:21,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 20:43:21,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 20:43:21,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 20:50:40,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected,127.0.0.1
+2025-03-24 20:50:40,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 20:50:40,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 20:50:40,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 20:51:20,0x83dfd3a93d25,Heartbeat,,No heartbeat received – system not responding,N/A
+2025-03-24 20:56:35,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Disconnected,127.0.0.1
+2025-03-24 20:56:35,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 20:56:35,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 20:56:35,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 21:04:17,0x83dfd3a93d25,USB Devices,,"USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 21:04:17,0x83dfd3a93d25,Ethernet,,Ethernet changed from Unknown to Connected,127.0.0.1
+2025-03-24 21:04:17,0x83dfd3a93d25,GPU,,GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 21:04:17,0x83dfd3a93d25,Monitor,,Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 21:07:10,0x83dfd3a93d25,USB Devices,,"Anomaly USB Devices changed from Unknown to ACER HD User Facing, Camera DFU Device, USB Composite Device (2), USB Input Device (3), USB Root Hub (USB 3.0) (2), USB4 Root Router (1.0), USB4 Virtual power coordination device",127.0.0.1
+2025-03-24 21:07:10,0x83dfd3a93d25,Ethernet,,Anomaly Ethernet changed from Unknown to Connected,127.0.0.1
+2025-03-24 21:07:10,0x83dfd3a93d25,GPU,,Anomaly GPU changed from Unknown to Present,127.0.0.1
+2025-03-24 21:07:10,0x83dfd3a93d25,Monitor,,Anomaly Monitor changed from Unknown to Present,127.0.0.1
+2025-03-24 21:07:52,0x83dfd3a93d25,Heartbeat,,No heartbeat received – system not responding,N/A
+2025-03-24 21:25:04,0x83dfd3a93d25,Heartbeat,,No heartbeat received – system not responding,N/A
+2025-03-24 21:28:05,0x83dfd3a93d25,Heartbeat,,No heartbeat received – system not responding,N/A

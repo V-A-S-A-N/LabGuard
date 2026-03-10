@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Device Monitor</title>
+  <!-- For testing dropdown functionality, you might comment out the meta refresh -->
+  <meta http-equiv="refresh" content="3">
+  <style>
+    :root {
+      --primary-color: #007bff;
+      --secondary-color: #6c757d;
+      --bg-color: #f4f6f8;
+      --light-bg: #ffffff;
+      --border-color: #e0e0e0;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body { 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 300px;
+      background-color: var(--light-bg);
+      padding: 20px;
+      height: 100vh;
+      border-right: 1px solid var(--border-color);
+      overflow-y: auto;
+      box-shadow: 2px 0 5px var(--shadow-color);
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 15px;
+      color: var(--primary-color);
+    }
+
+    .anomaly-entry {
+      padding: 12px 15px;
+      margin-bottom: 15px;
+      background-color: var(--light-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px var(--shadow-color);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .anomaly-entry:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px var(--shadow-color);
+    }
+
+    .anomaly-header {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .anomaly-time {
+      font-size: 0.8em;
+      color: var(--secondary-color);
+      margin-left: 5px;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 30px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: var(--primary-color);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: var(--light-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px var(--shadow-color);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    tr.system-row {
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    tr.system-row:hover {
+      background-color: #f9f9f9;
+      transform: scale(1.01);
+    }
+
+    tr.details-row td {
+      background-color: #f8f8f8;
+      padding-left: 30px;
+      border-top: none;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .system-id {
+      cursor: pointer;
+      color: var(--primary-color);
+      text-decoration: underline;
+      transition: color 0.3s ease;
+    }
+
+    .system-id:hover {
+      color: darkblue;
+    }
+
+    form.shutdown {
+      margin: 0;
+    }
+
+    form.shutdown button {
+      background-color: var(--primary-color);
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    form.shutdown button:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+
+    /* Fade-in animation for details rows */
+    .details-row {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .details-row.show {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Recent Anomalies</h2>
+    {% for anomaly in anomalies %}
+    <div class="anomaly-entry">
+      <div class="anomaly-header">
+        {{ anomaly.system_id }}
+        <span class="anomaly-time">{{ anomaly.timestamp }}</span>
+      </div>
+      <div>{{ anomaly.event }}</div>
+    </div>
+    {% else %}
+    <p>No recent anomalies</p>
+    {% endfor %}
+  </div>
+
+  <div class="main-content">
+    <h1>Connected Devices</h1>
+    <table>
+      <tr>
+        <th>System ID</th>
+        <th>IP Address</th>
+        <th>Last Seen</th>
+        <th>Shutdown</th>
+      </tr>
+      {% for system in systems %}
+      <tr class="system-row">
+        <td>
+          <span class="system-id" data-system-id="{{ system.system_id }}">
+            {{ system.system_id }}
+          </span>
+          {% set relevant_anomalies = anomalies
+               | selectattr('system_id', 'equalto', system.system_id)
+               | rejectattr('event', 'equalto', 'initial status details')
+               | list %}
+          {% if relevant_anomalies %}
+            <span class="anomaly-indicator" title="Recent anomalies detected">❗</span>
+          {% endif %}
+        </td>
+        <td>{{ system.ip }}</td>
+        <td>{{ system.last_seen }}</td>
+        <td>
+          <form class="shutdown" method="POST" action="{{ url_for('shutdown_system', index=loop.index0) }}">
+            <button type="submit">Shutdown</button>
+          </form>
+        </td>
+      </tr>
+      <tr class="details-row" style="display: none;">
+        <td colspan="4">
+          {% if system.status_details %}
+          <h3>Device Details for {{ system.system_id }}</h3>
+          <ul>
+            {% for device, status in system.status_details.items() %}
+            <li>{{ device }}: {{ status }}</li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <p>No detailed status available</p>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <script>
+    // --- Polling for backend updates ---
+    // This function checks the backend for updates every 3 seconds.
+    // If an update is detected, the page is refreshed.
+    function checkForUpdates() {
+      fetch('/updates')
+        .then(response => response.json())
+        .then(data => {
+          if (data.update) {
+            window.location.reload();
+          }
+        })
+        .catch(error => console.error('Error fetching update status:', error));
+    }
+    setInterval(checkForUpdates, 3000);
+
+    // --- UI functionality from your original code ---
+    document.addEventListener('DOMContentLoaded', function() {
+      // Functions to work with localStorage for open details rows
+      function getOpenDetails() {
+        var open = localStorage.getItem('open_details');
+        return open ? JSON.parse(open) : [];
+      }
+      function setOpenDetails(openList) {
+        localStorage.setItem('open_details', JSON.stringify(openList));
+      }
+
+      // Shutdown form handler
+      document.querySelectorAll('form.shutdown').forEach(function(form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const row = form.closest('tr');
+          if (row) {
+            row.parentNode.removeChild(row);
+          }
+          fetch(form.action, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+          }).then(response => {
+            if (!response.ok) {
+              console.error('Shutdown request failed.');
+            }
+          }).catch(error => {
+            console.error('Error during shutdown request:', error);
+          });
+        });
+      });
+
+      // Toggle details row on system-id click and animate the appearance
+      document.querySelectorAll('.system-id').forEach(function(element) {
+        element.addEventListener('click', function() {
+          var detailsRow = this.closest('tr').nextElementSibling;
+          var systemId = this.getAttribute('data-system-id');
+          var openList = getOpenDetails();
+
+          if (detailsRow && detailsRow.classList.contains('details-row')) {
+            if (detailsRow.style.display === 'none' || detailsRow.style.display === '') {
+              detailsRow.style.display = 'table-row';
+              detailsRow.classList.remove('show');
+              void detailsRow.offsetWidth; // Force reflow for animation restart
+              detailsRow.classList.add('show');
+              if (!openList.includes(systemId)) {
+                openList.push(systemId);
+                setOpenDetails(openList);
+              }
+            } else {
+              detailsRow.classList.remove('show');
+              setTimeout(function() {
+                detailsRow.style.display = 'none';
+                var openList = getOpenDetails();
+                openList = openList.filter(id => id !== systemId);
+                setOpenDetails(openList);
+              }, 400);
+            }
+            // Update open details list in localStorage
+            var openList = getOpenDetails();
+            if (detailsRow.style.display === 'table-row') {
+              if (!openList.includes(systemId)) {
+                openList.push(systemId);
+              }
+            } else {
+              openList = openList.filter(id => id !== systemId);
+            }
+            setOpenDetails(openList);
+          }
+        });
+      });
+
+      // Restore open details rows on page load from localStorage
+      var openList = getOpenDetails();
+      document.querySelectorAll('.system-id').forEach(function(element) {
+        var systemId = element.getAttribute('data-system-id');
+        if (openList.includes(systemId)) {
+          var detailsRow = element.closest('tr').nextElementSibling;
+          if (detailsRow && detailsRow.classList.contains('details-row')) {
+            detailsRow.style.display = 'table-row';
+            detailsRow.classList.add('show');
+          }
+        }
+      });
+    });
+    function updateSidebar() {
+  fetch('/sidebar')
+    .then(response => response.text())
+    .then(html => {
+      document.querySelector('.sidebar').innerHTML = html;
+    })
+    .catch(error => console.error('Error updating sidebar:', error));
+}
+function updateMainContent() {
+  fetch('/devices')
+    .then(response => response.text())
+    .then(html => {
+      document.querySelector('.main-content').innerHTML = html;
+    })
+    .catch(error => console.error('Error updating main content:', error));
+}
+
+// Check for heartbeat anomalies (or combined updates)
+function updateBothIfNeeded() {
+  fetch('/all-updates')
+    .then(response => response.json())
+    .then(data => {
+      if (data.updateSidebar) {
+        updateSidebar();
+      }
+      if (data.updateDevices) {
+        updateMainContent();
+      }
+    })
+    .catch(error => console.error('Error checking updates:', error));
+}
+
+// Poll for updates every few seconds (customize intervals as needed)
+setInterval(() => {
+  updateBothIfNeeded();
+}, 3000);
+  </script>
+</body>
+</html>

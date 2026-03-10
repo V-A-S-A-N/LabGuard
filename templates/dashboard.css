@@ -1,0 +1,133 @@
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --bg-color: #f4f6f8;
+    --light-bg: #ffffff;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 300px;
+    background-color: var(--light-bg);
+    padding: 20px;
+    height: 100vh;
+    border-right: 1px solid var(--border-color);
+    overflow-y: auto;
+    box-shadow: 2px 0 5px var(--shadow-color);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .sidebar h2 {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+  }
+  .anomaly-entry {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background-color: var(--light-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .anomaly-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+  }
+  .anomaly-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .anomaly-time {
+    font-size: 0.8em;
+    color: var(--secondary-color);
+    margin-left: 5px;
+  }
+  .main-content {
+    flex: 1;
+    padding: 30px;
+  }
+  h1 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px var(--shadow-color);
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  th {
+    background-color: #f0f0f0;
+  }
+  tr.system-row {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  tr.system-row:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.01);
+  }
+  tr.details-row td {
+    background-color: #f8f8f8;
+    padding-left: 30px;
+    border-top: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .system-id {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  .system-id:hover {
+    color: darkblue;
+  }
+  /* The anomaly indicator is added dynamically */
+  .anomaly-indicator {
+    margin-left: 5px;
+    font-size: 1.2em;
+  }
+  form.shutdown {
+    margin: 0;
+  }
+  form.shutdown button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  form.shutdown button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  /* Fade-in animation for details rows */
+  .details-row {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .details-row.show {
+    opacity: 1;
+  }
