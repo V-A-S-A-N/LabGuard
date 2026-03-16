@@ -1,0 +1,15 @@
+<div class="sidebar">
+    <h2>Recent Anomalies</h2>
+    {% for anomaly in anomalies %}
+      <div class="anomaly-entry">
+        <div class="anomaly-header">
+          {{ anomaly.system_id }}
+          <span class="anomaly-time">{{ anomaly.timestamp }}</span>
+        </div>
+        <div>{{ anomaly.event }}</div>
+      </div>
+    {% else %}
+      <p>No recent anomalies</p>
+    {% endfor %}
+  </div>
+  

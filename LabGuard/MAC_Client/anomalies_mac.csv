@@ -1,0 +1,441 @@
+Time,SystemID,DeviceName,DeviceID,Event
+2026-03-12 13:27:11,1,Initial Status,,Initial Status
+2026-03-12 13:27:11,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-12 13:27:11,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Initial Status,,Initial Status
+2026-03-13 11:21:35,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Headset,,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,BTM,,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-13 11:21:35,1,USB 10/100/1000 LAN,VID:0x0bda PID:0x8153,Anomaly startup-Device Connected
+2026-03-13 11:21:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:21:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:22:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:22:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:22:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:22:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:22:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:22:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:23:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:23:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:23:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:23:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:23:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:23:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:24:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:24:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:24:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:24:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:24:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:24:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:25:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:25:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:25:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:25:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:25:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:25:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:26:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:26:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:26:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:26:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:26:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:26:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:27:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:27:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:27:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:27:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:27:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:27:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:28:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:28:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:28:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:28:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:28:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:28:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:29:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:29:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:29:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:29:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:29:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:29:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:30:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:30:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:30:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:30:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:30:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:30:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:31:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:31:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:31:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:31:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:31:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:31:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:32:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:32:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:32:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:32:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:32:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:32:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:33:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:33:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:33:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:33:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:33:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:33:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:34:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:34:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:34:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:34:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:34:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:34:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:35:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:35:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:35:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:35:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:35:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:35:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:36:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:36:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:36:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:36:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:36:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:36:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:37:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:37:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:37:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:37:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:37:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:37:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:38:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:38:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:38:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:38:35,1,Heartbeat,,Heartbeat
+2026-03-13 11:38:45,1,Heartbeat,,Heartbeat
+2026-03-13 11:38:55,1,Heartbeat,,Heartbeat
+2026-03-13 11:39:05,1,Heartbeat,,Heartbeat
+2026-03-13 11:39:15,1,Heartbeat,,Heartbeat
+2026-03-13 11:39:25,1,Heartbeat,,Heartbeat
+2026-03-13 11:39:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:39:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:39:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:40:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:40:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:40:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:40:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:40:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:40:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:41:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:41:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:41:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:41:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:41:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:41:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:42:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:42:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:42:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:42:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:42:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:42:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:43:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:43:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:43:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:43:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:43:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:43:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:44:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:44:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:44:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:44:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:44:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:44:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:45:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:45:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:45:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:45:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:45:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:45:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:46:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:46:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:46:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:46:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:46:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:46:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:47:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:47:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:47:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:47:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:47:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:47:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:48:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:48:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:48:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:48:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:48:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:48:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:49:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:49:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:49:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:49:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:49:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:49:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:50:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:50:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:50:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:50:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:50:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:50:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:51:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:51:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:51:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:51:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:51:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:51:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:52:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:52:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:52:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:52:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:52:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:52:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:53:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:53:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:53:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:53:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:53:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:53:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:54:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:54:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:54:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:54:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:54:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:54:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:55:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:55:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:55:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:55:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:55:46,1,Heartbeat,,Heartbeat
+2026-03-13 11:55:56,1,Heartbeat,,Heartbeat
+2026-03-13 11:56:06,1,Heartbeat,,Heartbeat
+2026-03-13 11:56:16,1,Heartbeat,,Heartbeat
+2026-03-13 11:56:26,1,Heartbeat,,Heartbeat
+2026-03-13 11:56:36,1,Heartbeat,,Heartbeat
+2026-03-13 11:56:48,1,Heartbeat,,Heartbeat
+2026-03-13 11:56:58,1,Heartbeat,,Heartbeat
+2026-03-13 11:57:08,1,Heartbeat,,Heartbeat
+2026-03-13 11:57:18,1,Heartbeat,,Heartbeat
+2026-03-13 11:57:28,1,Heartbeat,,Heartbeat
+2026-03-13 11:57:38,1,Heartbeat,,Heartbeat
+2026-03-13 11:57:48,1,Heartbeat,,Heartbeat
+2026-03-13 11:57:58,1,Heartbeat,,Heartbeat
+2026-03-13 11:58:08,1,Heartbeat,,Heartbeat
+2026-03-13 11:58:18,1,Heartbeat,,Heartbeat
+2026-03-13 11:58:28,1,Heartbeat,,Heartbeat
+2026-03-13 11:58:38,1,Heartbeat,,Heartbeat
+2026-03-13 11:58:48,1,Heartbeat,,Heartbeat
+2026-03-13 11:58:58,1,Heartbeat,,Heartbeat
+2026-03-13 11:59:08,1,Heartbeat,,Heartbeat
+2026-03-13 11:59:18,1,Heartbeat,,Heartbeat
+2026-03-13 11:59:28,1,Heartbeat,,Heartbeat
+2026-03-13 11:59:38,1,Heartbeat,,Heartbeat
+2026-03-13 11:59:48,1,Heartbeat,,Heartbeat
+2026-03-13 11:59:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:00:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:00:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:00:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:00:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:00:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:00:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:01:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:01:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:01:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:01:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:01:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:01:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:02:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:02:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:02:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:02:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:02:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:02:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:03:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:03:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:03:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:03:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:03:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:03:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:04:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:04:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:04:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:04:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:04:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:04:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:05:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:05:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:05:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:05:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:05:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:05:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:06:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:06:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:06:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:06:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:06:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:06:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:07:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:07:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:07:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:07:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:07:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:07:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:08:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:08:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:08:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:08:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:08:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:08:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:09:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:09:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:09:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:09:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:09:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:09:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:10:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:10:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:10:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:10:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:10:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:10:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:11:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:11:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:11:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:11:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:11:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:11:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:12:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:12:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:12:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:12:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:12:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:12:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:13:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:13:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:13:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:13:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:13:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:13:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:14:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:14:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:14:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:14:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:14:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:14:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:15:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:15:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:15:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:15:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:15:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:15:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:16:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:16:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:16:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:16:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:16:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:16:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:17:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:17:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:17:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:17:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:17:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:17:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:18:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:18:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:18:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:18:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:18:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:18:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:19:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:19:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:19:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:19:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:19:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:19:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:20:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:20:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:20:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:20:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:20:48,1,Heartbeat,,Heartbeat
+2026-03-13 12:20:58,1,Heartbeat,,Heartbeat
+2026-03-13 12:21:08,1,Heartbeat,,Heartbeat
+2026-03-13 12:21:18,1,Heartbeat,,Heartbeat
+2026-03-13 12:21:28,1,Heartbeat,,Heartbeat
+2026-03-13 12:21:38,1,Heartbeat,,Heartbeat
+2026-03-13 12:21:48,1,Heartbeat,,Heartbeat
+2026-03-16 10:21:44,1,Initial Status,,Initial Status
+2026-03-16 10:21:44,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:21:44,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:55:55,1,Initial Status,,Initial Status
+2026-03-16 10:55:55,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:55:55,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:00,1,Initial Status,,Initial Status
+2026-03-16 10:57:00,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:00,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:00,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Initial Status,,Initial Status
+2026-03-16 10:57:50,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Headset,,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,BTM,,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-16 10:57:50,1,USB 10/100/1000 LAN,VID:0x0bda PID:0x8153,Anomaly startup-Device Connected
+2026-03-16 10:57:59,1,Heartbeat,,Heartbeat
+2026-03-16 10:58:08,1,Heartbeat,,Heartbeat
+2026-03-16 10:58:15,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly Device Removal
+2026-03-16 10:58:15,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly Device Removal
+2026-03-16 10:58:15,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly Device Removal
+2026-03-16 10:58:17,1,Heartbeat,,Heartbeat
+2026-03-16 10:58:26,1,Heartbeat,,Heartbeat
+2026-03-16 10:58:35,1,Heartbeat,,Heartbeat
+2026-03-16 10:58:44,1,Heartbeat,,Heartbeat
+2026-03-16 10:58:52,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly Device Connected
+2026-03-16 10:58:52,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly Device Connected
+2026-03-16 10:58:52,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly Device Connected
+2026-03-16 10:58:53,1,Heartbeat,,Heartbeat
+2026-03-16 10:59:02,1,Heartbeat,,Heartbeat
+2026-03-16 10:59:11,1,Heartbeat,,Heartbeat
+2026-03-16 10:59:20,1,Heartbeat,,Heartbeat
+2026-03-16 10:59:20,1,System,,System Shutting Down
+2026-03-16 11:15:14,1,Initial Status,,Initial Status
+2026-03-16 11:15:14,1,Magic Mouse,VID:0x004c PID:0x0323,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,Headset,,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,AppleSPUHIDDevice,,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,BTM,,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,Magic Keyboard,VID:0x05ac PID:0x0320,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,USB 10/100/1000 LAN,VID:0x0bda PID:0x8153,Anomaly startup-Device Connected
+2026-03-16 11:15:14,1,Magic Mouse,3c-50-02-e4-70-fa,Anomaly Device Connected
+2026-03-16 11:15:22,1,Heartbeat,,Heartbeat
+2026-03-16 11:15:31,1,Heartbeat,,Heartbeat
+2026-03-16 11:15:40,1,Heartbeat,,Heartbeat
+2026-03-16 11:15:49,1,Heartbeat,,Heartbeat
+2026-03-16 11:15:53,1,System,,System Shutting Down
+2026-03-16 11:30:46,1,Initial Status,,Initial Status
+2026-03-16 11:30:46,1,Magic Mouse,3c-50-02-e4-70-fa,Anomaly Device Connected
+2026-03-16 11:30:51,1,System,,System Shutting Down
+2026-03-16 11:31:04,1,Initial Status,,Initial Status
+2026-03-16 11:31:04,1,Magic Mouse,3c-50-02-e4-70-fa,Anomaly Device Connected
+2026-03-16 11:31:12,1,Heartbeat,,Heartbeat
+2026-03-16 11:31:14,1,System,,System Shutting Down

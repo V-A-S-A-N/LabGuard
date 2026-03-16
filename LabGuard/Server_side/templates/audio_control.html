@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Control</title>
+</head>
+<body>
+  <audio id="alertSound" preload="auto">
+    <source src="alert.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    // Function to play the alert sound
+    function playAlertSound() {
+      var audio = document.getElementById('alertSound');
+      audio.play().catch(error => {
+        console.error('Audio playback failed in iframe:', error);
+      });
+    }
+
+    // Listen for messages from the main page
+    window.addEventListener('message', function(event) {
+      if (event.data.type === 'playAudio') {
+        playAlertSound();
+      }
+    });
+  </script>
+</body>
+</html>

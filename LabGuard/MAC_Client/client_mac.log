@@ -1,0 +1,596 @@
+2026-03-12 13:27:11,097 INFO: Shutdown listener running on port 6000
+2026-03-12 13:27:11,381 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-12 13:27:11,382 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-12 13:27:11,382 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-12 13:27:11,390 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-12 13:27:11,395 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-12 13:27:11,396 INFO: HID monitoring armed (IOKit)
+2026-03-12 13:27:11,396 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-12 13:27:11,396 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-12 13:27:11,396 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-12 13:27:11,443 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-12 13:27:11,443 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-12 13:27:11,457 INFO: Display monitoring armed (Quartz)
+2026-03-12 13:27:11,457 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-12 13:27:11,457 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-12 13:27:11,458 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-12 13:27:11,458 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-12 13:27:21,383 ERROR: Send error: timed out
+2026-03-12 13:27:31,386 ERROR: Send error: timed out
+2026-03-12 13:27:41,388 ERROR: Send error: timed out
+2026-03-12 13:27:42,165 INFO: Shutting down...
+2026-03-13 11:21:35,623 INFO: Shutdown listener running on port 6000
+2026-03-13 11:21:35,972 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-13 11:21:35,979 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-13 11:21:35,979 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-13 11:21:35,980 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-13 11:21:35,980 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-13 11:21:35,989 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-13 11:21:35,989 INFO: HID monitoring armed (IOKit)
+2026-03-13 11:21:35,989 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-13 11:21:35,990 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-13 11:21:35,990 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-13 11:21:36,039 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-13 11:21:36,040 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-13 11:21:36,054 INFO: Display monitoring armed (Quartz)
+2026-03-13 11:21:36,054 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-13 11:21:36,054 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-13 11:21:36,055 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-13 11:21:36,055 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-13 11:21:45,973 ERROR: Send error: timed out
+2026-03-13 11:21:55,976 ERROR: Send error: timed out
+2026-03-13 11:22:05,978 ERROR: Send error: timed out
+2026-03-13 11:22:15,980 ERROR: Send error: timed out
+2026-03-13 11:22:25,982 ERROR: Send error: timed out
+2026-03-13 11:22:35,984 ERROR: Send error: timed out
+2026-03-13 11:22:45,986 ERROR: Send error: timed out
+2026-03-13 11:22:55,988 ERROR: Send error: timed out
+2026-03-13 11:23:05,990 ERROR: Send error: timed out
+2026-03-13 11:23:15,992 ERROR: Send error: timed out
+2026-03-13 11:23:25,994 ERROR: Send error: timed out
+2026-03-13 11:23:35,997 ERROR: Send error: timed out
+2026-03-13 11:23:45,998 ERROR: Send error: timed out
+2026-03-13 11:23:56,001 ERROR: Send error: timed out
+2026-03-13 11:24:06,003 ERROR: Send error: timed out
+2026-03-13 11:24:16,005 ERROR: Send error: timed out
+2026-03-13 11:24:26,007 ERROR: Send error: timed out
+2026-03-13 11:24:36,009 ERROR: Send error: timed out
+2026-03-13 11:24:46,010 ERROR: Send error: timed out
+2026-03-13 11:24:56,013 ERROR: Send error: timed out
+2026-03-13 11:25:06,015 ERROR: Send error: timed out
+2026-03-13 11:25:16,016 ERROR: Send error: timed out
+2026-03-13 11:25:26,019 ERROR: Send error: timed out
+2026-03-13 11:25:36,021 ERROR: Send error: timed out
+2026-03-13 11:25:46,023 ERROR: Send error: timed out
+2026-03-13 11:25:56,025 ERROR: Send error: timed out
+2026-03-13 11:26:06,027 ERROR: Send error: timed out
+2026-03-13 11:26:16,029 ERROR: Send error: timed out
+2026-03-13 11:26:26,031 ERROR: Send error: timed out
+2026-03-13 11:26:36,034 ERROR: Send error: timed out
+2026-03-13 11:26:46,035 ERROR: Send error: timed out
+2026-03-13 11:26:56,038 ERROR: Send error: timed out
+2026-03-13 11:27:06,040 ERROR: Send error: timed out
+2026-03-13 11:27:16,042 ERROR: Send error: timed out
+2026-03-13 11:27:26,044 ERROR: Send error: timed out
+2026-03-13 11:27:36,046 ERROR: Send error: timed out
+2026-03-13 11:27:46,046 ERROR: Send error: timed out
+2026-03-13 11:27:56,049 ERROR: Send error: timed out
+2026-03-13 11:28:06,051 ERROR: Send error: timed out
+2026-03-13 11:28:16,053 ERROR: Send error: timed out
+2026-03-13 11:28:26,056 ERROR: Send error: timed out
+2026-03-13 11:28:36,058 ERROR: Send error: timed out
+2026-03-13 11:28:46,060 ERROR: Send error: timed out
+2026-03-13 11:28:56,063 ERROR: Send error: timed out
+2026-03-13 11:29:06,064 ERROR: Send error: timed out
+2026-03-13 11:29:16,066 ERROR: Send error: timed out
+2026-03-13 11:29:26,068 ERROR: Send error: timed out
+2026-03-13 11:29:36,071 ERROR: Send error: timed out
+2026-03-13 11:29:46,073 ERROR: Send error: timed out
+2026-03-13 11:29:56,076 ERROR: Send error: timed out
+2026-03-13 11:30:06,079 ERROR: Send error: timed out
+2026-03-13 11:30:16,081 ERROR: Send error: timed out
+2026-03-13 11:30:26,084 ERROR: Send error: timed out
+2026-03-13 11:30:36,086 ERROR: Send error: timed out
+2026-03-13 11:30:46,088 ERROR: Send error: timed out
+2026-03-13 11:30:56,091 ERROR: Send error: timed out
+2026-03-13 11:31:06,093 ERROR: Send error: timed out
+2026-03-13 11:31:16,096 ERROR: Send error: timed out
+2026-03-13 11:31:26,098 ERROR: Send error: timed out
+2026-03-13 11:31:36,101 ERROR: Send error: timed out
+2026-03-13 11:31:46,104 ERROR: Send error: timed out
+2026-03-13 11:31:56,106 ERROR: Send error: timed out
+2026-03-13 11:32:06,109 ERROR: Send error: timed out
+2026-03-13 11:32:16,111 ERROR: Send error: timed out
+2026-03-13 11:32:26,113 ERROR: Send error: timed out
+2026-03-13 11:32:36,116 ERROR: Send error: timed out
+2026-03-13 11:32:46,117 ERROR: Send error: timed out
+2026-03-13 11:32:56,120 ERROR: Send error: timed out
+2026-03-13 11:33:06,122 ERROR: Send error: timed out
+2026-03-13 11:33:16,125 ERROR: Send error: timed out
+2026-03-13 11:33:26,127 ERROR: Send error: timed out
+2026-03-13 11:33:36,130 ERROR: Send error: timed out
+2026-03-13 11:33:46,131 ERROR: Send error: timed out
+2026-03-13 11:33:56,134 ERROR: Send error: timed out
+2026-03-13 11:34:06,136 ERROR: Send error: timed out
+2026-03-13 11:34:16,139 ERROR: Send error: timed out
+2026-03-13 11:34:26,141 ERROR: Send error: timed out
+2026-03-13 11:34:36,144 ERROR: Send error: timed out
+2026-03-13 11:34:46,145 ERROR: Send error: timed out
+2026-03-13 11:34:56,148 ERROR: Send error: timed out
+2026-03-13 11:35:06,152 ERROR: Send error: timed out
+2026-03-13 11:35:16,155 ERROR: Send error: timed out
+2026-03-13 11:35:26,157 ERROR: Send error: timed out
+2026-03-13 11:35:36,160 ERROR: Send error: timed out
+2026-03-13 11:35:46,163 ERROR: Send error: timed out
+2026-03-13 11:35:56,166 ERROR: Send error: timed out
+2026-03-13 11:36:06,168 ERROR: Send error: timed out
+2026-03-13 11:36:16,171 ERROR: Send error: timed out
+2026-03-13 11:36:16,173 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,174 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,176 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,177 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,178 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,179 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,180 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,181 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,181 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,182 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,182 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,183 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,183 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:16,184 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:25,937 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:35,941 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:36:45,946 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:37:05,948 ERROR: Send error: timed out
+2026-03-13 11:37:05,950 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:37:15,955 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:37:35,960 ERROR: Send error: timed out
+2026-03-13 11:37:35,964 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:37:45,969 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:38:05,970 ERROR: Send error: timed out
+2026-03-13 11:38:05,972 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:38:15,975 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:38:35,978 ERROR: Send error: timed out
+2026-03-13 11:38:35,981 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:38:45,985 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:39:05,988 ERROR: Send error: timed out
+2026-03-13 11:39:05,991 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:39:15,992 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:39:25,997 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:39:36,002 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:39:56,007 ERROR: Send error: timed out
+2026-03-13 11:40:06,010 ERROR: Send error: timed out
+2026-03-13 11:40:16,013 ERROR: Send error: timed out
+2026-03-13 11:40:26,019 ERROR: Send error: timed out
+2026-03-13 11:40:36,023 ERROR: Send error: timed out
+2026-03-13 11:40:46,025 ERROR: Send error: timed out
+2026-03-13 11:40:56,029 ERROR: Send error: timed out
+2026-03-13 11:41:06,034 ERROR: Send error: timed out
+2026-03-13 11:41:16,038 ERROR: Send error: timed out
+2026-03-13 11:41:26,043 ERROR: Send error: timed out
+2026-03-13 11:41:36,047 ERROR: Send error: timed out
+2026-03-13 11:41:46,052 ERROR: Send error: timed out
+2026-03-13 11:41:56,056 ERROR: Send error: timed out
+2026-03-13 11:42:06,059 ERROR: Send error: timed out
+2026-03-13 11:42:16,063 ERROR: Send error: timed out
+2026-03-13 11:42:26,065 ERROR: Send error: timed out
+2026-03-13 11:42:36,068 ERROR: Send error: timed out
+2026-03-13 11:42:46,071 ERROR: Send error: timed out
+2026-03-13 11:42:56,076 ERROR: Send error: timed out
+2026-03-13 11:43:06,078 ERROR: Send error: timed out
+2026-03-13 11:43:16,080 ERROR: Send error: timed out
+2026-03-13 11:43:26,083 ERROR: Send error: timed out
+2026-03-13 11:43:36,085 ERROR: Send error: timed out
+2026-03-13 11:43:46,088 ERROR: Send error: timed out
+2026-03-13 11:43:56,091 ERROR: Send error: timed out
+2026-03-13 11:44:06,094 ERROR: Send error: timed out
+2026-03-13 11:44:16,098 ERROR: Send error: timed out
+2026-03-13 11:44:26,101 ERROR: Send error: timed out
+2026-03-13 11:44:36,103 ERROR: Send error: timed out
+2026-03-13 11:44:46,106 ERROR: Send error: timed out
+2026-03-13 11:44:56,109 ERROR: Send error: timed out
+2026-03-13 11:45:06,111 ERROR: Send error: timed out
+2026-03-13 11:45:16,115 ERROR: Send error: timed out
+2026-03-13 11:45:26,117 ERROR: Send error: timed out
+2026-03-13 11:45:36,120 ERROR: Send error: timed out
+2026-03-13 11:45:46,125 ERROR: Send error: timed out
+2026-03-13 11:45:56,130 ERROR: Send error: timed out
+2026-03-13 11:46:06,135 ERROR: Send error: timed out
+2026-03-13 11:46:16,137 ERROR: Send error: timed out
+2026-03-13 11:46:26,140 ERROR: Send error: timed out
+2026-03-13 11:46:36,143 ERROR: Send error: timed out
+2026-03-13 11:46:46,144 ERROR: Send error: timed out
+2026-03-13 11:46:56,147 ERROR: Send error: timed out
+2026-03-13 11:47:06,149 ERROR: Send error: timed out
+2026-03-13 11:47:16,152 ERROR: Send error: timed out
+2026-03-13 11:47:26,157 ERROR: Send error: timed out
+2026-03-13 11:47:36,162 ERROR: Send error: timed out
+2026-03-13 11:47:46,165 ERROR: Send error: timed out
+2026-03-13 11:47:56,168 ERROR: Send error: timed out
+2026-03-13 11:48:06,170 ERROR: Send error: timed out
+2026-03-13 11:48:16,174 ERROR: Send error: timed out
+2026-03-13 11:48:26,176 ERROR: Send error: timed out
+2026-03-13 11:48:36,180 ERROR: Send error: timed out
+2026-03-13 11:48:46,184 ERROR: Send error: timed out
+2026-03-13 11:48:56,188 ERROR: Send error: timed out
+2026-03-13 11:49:06,193 ERROR: Send error: timed out
+2026-03-13 11:49:16,197 ERROR: Send error: timed out
+2026-03-13 11:49:26,199 ERROR: Send error: timed out
+2026-03-13 11:49:36,202 ERROR: Send error: timed out
+2026-03-13 11:49:46,204 ERROR: Send error: timed out
+2026-03-13 11:49:56,206 ERROR: Send error: timed out
+2026-03-13 11:50:06,210 ERROR: Send error: timed out
+2026-03-13 11:50:16,213 ERROR: Send error: timed out
+2026-03-13 11:50:26,215 ERROR: Send error: timed out
+2026-03-13 11:50:36,218 ERROR: Send error: timed out
+2026-03-13 11:50:46,220 ERROR: Send error: timed out
+2026-03-13 11:50:56,224 ERROR: Send error: timed out
+2026-03-13 11:51:06,228 ERROR: Send error: timed out
+2026-03-13 11:51:16,229 ERROR: Send error: timed out
+2026-03-13 11:51:26,233 ERROR: Send error: timed out
+2026-03-13 11:51:36,238 ERROR: Send error: timed out
+2026-03-13 11:51:46,242 ERROR: Send error: timed out
+2026-03-13 11:51:56,246 ERROR: Send error: timed out
+2026-03-13 11:52:06,251 ERROR: Send error: timed out
+2026-03-13 11:52:16,256 ERROR: Send error: timed out
+2026-03-13 11:52:26,261 ERROR: Send error: timed out
+2026-03-13 11:52:36,265 ERROR: Send error: timed out
+2026-03-13 11:52:46,270 ERROR: Send error: timed out
+2026-03-13 11:52:56,273 ERROR: Send error: timed out
+2026-03-13 11:53:06,278 ERROR: Send error: timed out
+2026-03-13 11:53:06,282 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:53:16,286 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:53:36,291 ERROR: Send error: timed out
+2026-03-13 11:53:36,293 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:53:46,298 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 11:54:06,301 ERROR: Send error: timed out
+2026-03-13 11:54:16,305 ERROR: Send error: timed out
+2026-03-13 11:54:26,307 ERROR: Send error: timed out
+2026-03-13 11:54:36,310 ERROR: Send error: timed out
+2026-03-13 11:54:46,312 ERROR: Send error: timed out
+2026-03-13 11:54:56,317 ERROR: Send error: timed out
+2026-03-13 11:55:06,320 ERROR: Send error: timed out
+2026-03-13 11:55:16,325 ERROR: Send error: timed out
+2026-03-13 11:55:26,329 ERROR: Send error: timed out
+2026-03-13 11:55:36,334 ERROR: Send error: timed out
+2026-03-13 11:55:46,339 ERROR: Send error: timed out
+2026-03-13 11:55:56,344 ERROR: Send error: timed out
+2026-03-13 11:56:06,346 ERROR: Send error: timed out
+2026-03-13 11:56:16,349 ERROR: Send error: timed out
+2026-03-13 11:56:26,351 ERROR: Send error: timed out
+2026-03-13 11:56:36,353 ERROR: Send error: timed out
+2026-03-13 11:56:48,425 ERROR: Send error: timed out
+2026-03-13 11:56:58,424 ERROR: Send error: timed out
+2026-03-13 11:57:08,425 ERROR: Send error: timed out
+2026-03-13 11:57:18,427 ERROR: Send error: timed out
+2026-03-13 11:57:28,429 ERROR: Send error: timed out
+2026-03-13 11:57:38,431 ERROR: Send error: timed out
+2026-03-13 11:57:48,433 ERROR: Send error: timed out
+2026-03-13 11:57:58,436 ERROR: Send error: timed out
+2026-03-13 11:58:08,441 ERROR: Send error: timed out
+2026-03-13 11:58:18,443 ERROR: Send error: timed out
+2026-03-13 11:58:28,446 ERROR: Send error: timed out
+2026-03-13 11:58:38,449 ERROR: Send error: timed out
+2026-03-13 11:58:48,453 ERROR: Send error: timed out
+2026-03-13 11:58:58,456 ERROR: Send error: timed out
+2026-03-13 11:59:08,458 ERROR: Send error: timed out
+2026-03-13 11:59:18,466 ERROR: Send error: timed out
+2026-03-13 11:59:28,476 ERROR: Send error: timed out
+2026-03-13 11:59:38,486 ERROR: Send error: timed out
+2026-03-13 11:59:48,495 ERROR: Send error: timed out
+2026-03-13 11:59:58,505 ERROR: Send error: timed out
+2026-03-13 12:00:08,515 ERROR: Send error: timed out
+2026-03-13 12:00:18,524 ERROR: Send error: timed out
+2026-03-13 12:00:28,537 ERROR: Send error: timed out
+2026-03-13 12:00:38,547 ERROR: Send error: timed out
+2026-03-13 12:00:48,554 ERROR: Send error: timed out
+2026-03-13 12:00:58,559 ERROR: Send error: timed out
+2026-03-13 12:01:08,564 ERROR: Send error: timed out
+2026-03-13 12:01:18,569 ERROR: Send error: timed out
+2026-03-13 12:01:28,572 ERROR: Send error: timed out
+2026-03-13 12:01:38,575 ERROR: Send error: timed out
+2026-03-13 12:01:48,580 ERROR: Send error: timed out
+2026-03-13 12:01:58,585 ERROR: Send error: timed out
+2026-03-13 12:02:08,589 ERROR: Send error: timed out
+2026-03-13 12:02:18,594 ERROR: Send error: timed out
+2026-03-13 12:02:28,599 ERROR: Send error: timed out
+2026-03-13 12:02:38,601 ERROR: Send error: timed out
+2026-03-13 12:02:48,603 ERROR: Send error: timed out
+2026-03-13 12:02:58,607 ERROR: Send error: timed out
+2026-03-13 12:03:08,612 ERROR: Send error: timed out
+2026-03-13 12:03:18,616 ERROR: Send error: timed out
+2026-03-13 12:03:28,619 ERROR: Send error: timed out
+2026-03-13 12:03:38,622 ERROR: Send error: timed out
+2026-03-13 12:03:48,624 ERROR: Send error: timed out
+2026-03-13 12:03:58,627 ERROR: Send error: timed out
+2026-03-13 12:04:08,631 ERROR: Send error: timed out
+2026-03-13 12:04:18,633 ERROR: Send error: timed out
+2026-03-13 12:04:28,637 ERROR: Send error: timed out
+2026-03-13 12:04:38,641 ERROR: Send error: timed out
+2026-03-13 12:04:48,644 ERROR: Send error: timed out
+2026-03-13 12:04:58,646 ERROR: Send error: timed out
+2026-03-13 12:05:08,649 ERROR: Send error: timed out
+2026-03-13 12:05:18,651 ERROR: Send error: timed out
+2026-03-13 12:05:28,654 ERROR: Send error: timed out
+2026-03-13 12:05:38,656 ERROR: Send error: timed out
+2026-03-13 12:05:48,659 ERROR: Send error: timed out
+2026-03-13 12:05:58,663 ERROR: Send error: timed out
+2026-03-13 12:06:08,666 ERROR: Send error: timed out
+2026-03-13 12:06:18,668 ERROR: Send error: timed out
+2026-03-13 12:06:28,672 ERROR: Send error: timed out
+2026-03-13 12:06:38,675 ERROR: Send error: timed out
+2026-03-13 12:06:48,678 ERROR: Send error: timed out
+2026-03-13 12:06:58,683 ERROR: Send error: timed out
+2026-03-13 12:07:08,688 ERROR: Send error: timed out
+2026-03-13 12:07:18,690 ERROR: Send error: timed out
+2026-03-13 12:07:28,694 ERROR: Send error: timed out
+2026-03-13 12:07:28,697 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:07:38,702 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:07:58,707 ERROR: Send error: timed out
+2026-03-13 12:08:08,711 ERROR: Send error: timed out
+2026-03-13 12:08:18,715 ERROR: Send error: timed out
+2026-03-13 12:08:18,716 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:08:28,718 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:08:48,719 ERROR: Send error: timed out
+2026-03-13 12:08:58,723 ERROR: Send error: timed out
+2026-03-13 12:08:58,726 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:09:08,730 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:09:28,734 ERROR: Send error: timed out
+2026-03-13 12:09:28,738 ERROR: Send error: [Errno 65] No route to host
+2026-03-13 12:09:48,743 ERROR: Send error: timed out
+2026-03-13 12:09:58,748 ERROR: Send error: timed out
+2026-03-13 12:10:08,751 ERROR: Send error: timed out
+2026-03-13 12:10:18,753 ERROR: Send error: timed out
+2026-03-13 12:10:28,756 ERROR: Send error: timed out
+2026-03-13 12:10:38,759 ERROR: Send error: timed out
+2026-03-13 12:10:48,761 ERROR: Send error: timed out
+2026-03-13 12:10:58,764 ERROR: Send error: timed out
+2026-03-13 12:11:08,767 ERROR: Send error: timed out
+2026-03-13 12:11:18,769 ERROR: Send error: timed out
+2026-03-13 12:11:21,533 ERROR: Send error: [Errno 61] Connection refused
+2026-03-13 12:11:31,949 ERROR: Send error: [Errno 61] Connection refused
+2026-03-13 12:11:48,780 ERROR: Send error: timed out
+2026-03-13 12:11:58,785 ERROR: Send error: timed out
+2026-03-13 12:12:08,787 ERROR: Send error: timed out
+2026-03-13 12:12:18,790 ERROR: Send error: timed out
+2026-03-13 12:12:28,793 ERROR: Send error: timed out
+2026-03-13 12:12:38,798 ERROR: Send error: timed out
+2026-03-13 12:12:48,802 ERROR: Send error: timed out
+2026-03-13 12:12:58,807 ERROR: Send error: timed out
+2026-03-13 12:13:08,810 ERROR: Send error: timed out
+2026-03-13 12:13:18,813 ERROR: Send error: timed out
+2026-03-13 12:13:28,815 ERROR: Send error: timed out
+2026-03-13 12:13:38,820 ERROR: Send error: timed out
+2026-03-13 12:13:48,822 ERROR: Send error: timed out
+2026-03-13 12:13:58,825 ERROR: Send error: timed out
+2026-03-13 12:14:08,827 ERROR: Send error: timed out
+2026-03-13 12:14:18,832 ERROR: Send error: timed out
+2026-03-13 12:14:28,836 ERROR: Send error: timed out
+2026-03-13 12:14:38,841 ERROR: Send error: timed out
+2026-03-13 12:14:48,845 ERROR: Send error: timed out
+2026-03-13 12:14:58,850 ERROR: Send error: timed out
+2026-03-13 12:15:08,853 ERROR: Send error: timed out
+2026-03-13 12:15:18,855 ERROR: Send error: timed out
+2026-03-13 12:15:28,857 ERROR: Send error: timed out
+2026-03-13 12:15:38,861 ERROR: Send error: timed out
+2026-03-13 12:15:48,866 ERROR: Send error: timed out
+2026-03-13 12:15:58,868 ERROR: Send error: timed out
+2026-03-13 12:16:08,873 ERROR: Send error: timed out
+2026-03-13 12:16:18,878 ERROR: Send error: timed out
+2026-03-13 12:16:28,881 ERROR: Send error: timed out
+2026-03-13 12:16:38,886 ERROR: Send error: timed out
+2026-03-13 12:16:48,889 ERROR: Send error: timed out
+2026-03-13 12:16:58,892 ERROR: Send error: timed out
+2026-03-13 12:17:08,897 ERROR: Send error: timed out
+2026-03-13 12:17:18,900 ERROR: Send error: timed out
+2026-03-13 12:17:28,902 ERROR: Send error: timed out
+2026-03-13 12:17:38,905 ERROR: Send error: timed out
+2026-03-13 12:17:48,908 ERROR: Send error: timed out
+2026-03-13 12:17:58,913 ERROR: Send error: timed out
+2026-03-13 12:18:08,918 ERROR: Send error: timed out
+2026-03-13 12:18:18,922 ERROR: Send error: timed out
+2026-03-13 12:18:28,927 ERROR: Send error: timed out
+2026-03-13 12:18:38,929 ERROR: Send error: timed out
+2026-03-13 12:18:48,932 ERROR: Send error: timed out
+2026-03-13 12:18:58,935 ERROR: Send error: timed out
+2026-03-13 12:19:08,940 ERROR: Send error: timed out
+2026-03-13 12:19:18,944 ERROR: Send error: timed out
+2026-03-13 12:19:28,947 ERROR: Send error: timed out
+2026-03-13 12:19:38,952 ERROR: Send error: timed out
+2026-03-13 12:19:48,955 ERROR: Send error: timed out
+2026-03-13 12:19:58,958 ERROR: Send error: timed out
+2026-03-13 12:20:08,961 ERROR: Send error: timed out
+2026-03-13 12:20:18,964 ERROR: Send error: timed out
+2026-03-13 12:20:28,969 ERROR: Send error: timed out
+2026-03-13 12:20:38,970 ERROR: Send error: timed out
+2026-03-13 12:20:48,973 ERROR: Send error: timed out
+2026-03-13 12:20:58,975 ERROR: Send error: timed out
+2026-03-13 12:21:08,977 ERROR: Send error: timed out
+2026-03-13 12:21:18,982 ERROR: Send error: timed out
+2026-03-13 12:21:28,985 ERROR: Send error: timed out
+2026-03-13 12:21:38,988 ERROR: Send error: timed out
+2026-03-13 12:21:48,990 ERROR: Send error: timed out
+2026-03-13 12:21:55,016 INFO: HID Device Removal: Magic Mouse [Bluetooth]
+2026-03-13 12:21:55,017 INFO: HID Device Removal: Magic Mouse [Bluetooth]
+2026-03-13 12:21:55,019 INFO: HID Device Removal: Magic Mouse [Bluetooth]
+2026-03-13 12:22:00,803 ERROR: Send error: timed out
+2026-03-13 12:22:02,317 INFO: Shutting down...
+2026-03-16 10:21:44,291 INFO: Shutdown listener running on port 6000
+2026-03-16 10:21:44,634 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 10:21:44,635 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:21:44,635 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:21:44,643 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:21:44,648 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:21:44,648 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:21:44,648 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-16 10:21:44,649 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:21:44,649 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:21:44,649 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:21:44,649 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:21:44,649 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-16 10:21:44,649 INFO: HID monitoring armed (IOKit)
+2026-03-16 10:21:44,649 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-16 10:21:44,649 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-16 10:21:44,649 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-16 10:21:44,700 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-16 10:21:44,700 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-16 10:21:44,715 INFO: Display monitoring armed (Quartz)
+2026-03-16 10:21:44,715 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-16 10:21:44,716 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-16 10:21:44,716 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-16 10:21:44,716 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 10:21:54,636 ERROR: Send error: timed out
+2026-03-16 10:22:04,639 ERROR: Send error: timed out
+2026-03-16 10:22:14,642 ERROR: Send error: timed out
+2026-03-16 10:22:16,435 INFO: Shutting down...
+2026-03-16 10:55:54,907 INFO: Shutdown listener running on port 6000
+2026-03-16 10:55:55,245 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 10:55:55,246 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:55:55,246 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:55:55,254 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:55:55,259 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:55:55,259 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:55:55,259 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-16 10:55:55,259 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:55:55,260 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:55:55,260 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:55:55,260 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:55:55,260 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-16 10:55:55,260 INFO: HID monitoring armed (IOKit)
+2026-03-16 10:55:55,260 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-16 10:55:55,260 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-16 10:55:55,260 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-16 10:55:55,310 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-16 10:55:55,310 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-16 10:55:55,323 INFO: Display monitoring armed (Quartz)
+2026-03-16 10:55:55,324 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-16 10:55:55,324 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-16 10:55:55,324 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-16 10:55:55,324 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 10:56:05,247 ERROR: Send error: timed out
+2026-03-16 10:56:15,252 ERROR: Send error: timed out
+2026-03-16 10:56:25,255 ERROR: Send error: timed out
+2026-03-16 10:56:29,560 INFO: Shutting down...
+2026-03-16 10:56:59,888 INFO: Shutdown listener running on port 6000
+2026-03-16 10:57:00,199 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 10:57:00,199 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:57:00,200 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:57:00,209 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:57:00,215 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:00,216 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-16 10:57:00,216 INFO: HID monitoring armed (IOKit)
+2026-03-16 10:57:00,217 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-16 10:57:00,217 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-16 10:57:00,217 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-16 10:57:00,267 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-16 10:57:00,268 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-16 10:57:00,282 INFO: Display monitoring armed (Quartz)
+2026-03-16 10:57:00,282 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-16 10:57:00,282 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-16 10:57:00,283 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-16 10:57:00,283 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 10:57:10,201 ERROR: Send error: timed out
+2026-03-16 10:57:20,204 ERROR: Send error: timed out
+2026-03-16 10:57:30,207 ERROR: Send error: timed out
+2026-03-16 10:57:40,210 ERROR: Send error: timed out
+2026-03-16 10:57:46,616 INFO: Shutting down...
+2026-03-16 10:57:50,303 INFO: Shutdown listener running on port 6000
+2026-03-16 10:57:50,601 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 10:57:50,602 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:57:50,602 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:57:50,610 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:50,616 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 10:57:50,617 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-16 10:57:50,617 INFO: HID monitoring armed (IOKit)
+2026-03-16 10:57:50,617 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-16 10:57:50,617 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-16 10:57:50,617 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-16 10:57:50,664 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-16 10:57:50,664 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-16 10:57:50,678 INFO: Display monitoring armed (Quartz)
+2026-03-16 10:57:50,678 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-16 10:57:50,679 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-16 10:57:50,679 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-16 10:57:50,679 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 10:58:15,772 INFO: HID Device Removal: Magic Mouse [Bluetooth]
+2026-03-16 10:58:15,773 INFO: HID Device Removal: Magic Mouse [Bluetooth]
+2026-03-16 10:58:15,773 INFO: HID Device Removal: Magic Mouse [Bluetooth]
+2026-03-16 10:58:15,925 ERROR: BT disconnect error: 'IOBluetoothNSObjCUserNotification' object has no attribute 'object'
+2026-03-16 10:58:52,862 ERROR: BT connect error: 'IOBluetoothConcreteUserNotification' object has no attribute 'object'
+2026-03-16 10:58:52,937 INFO: HID Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:58:52,938 INFO: HID Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:58:52,938 INFO: HID Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 10:59:20,635 INFO: Shutting down...
+2026-03-16 11:15:13,817 INFO: Shutdown listener running on port 6000
+2026-03-16 11:15:14,040 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 11:15:14,041 INFO: HID startup-Device Connected: Magic Mouse [Bluetooth]
+2026-03-16 11:15:14,055 INFO: HID startup-Device Connected: Magic Keyboard [USB]
+2026-03-16 11:15:14,055 INFO: HID startup-Device Connected: Headset [Audio]
+2026-03-16 11:15:14,056 INFO: HID startup-Device Connected: AppleSPUHIDDevice [SPU]
+2026-03-16 11:15:14,056 INFO: HID startup-Device Connected: BTM [SPMI]
+2026-03-16 11:15:14,056 INFO: HID monitoring armed (IOKit)
+2026-03-16 11:15:14,056 INFO: USB startup-Device Connected: Magic Keyboard
+2026-03-16 11:15:14,057 INFO: USB startup-Device Connected: USB 10/100/1000 LAN
+2026-03-16 11:15:14,057 INFO: USB (non-HID) monitoring armed (IOKit)
+2026-03-16 11:15:14,105 INFO: Classic BT connected: Magic Mouse
+2026-03-16 11:15:14,105 INFO: Classic BT monitoring armed (PyObjC)
+2026-03-16 11:15:14,121 INFO: Display monitoring armed (Quartz)
+2026-03-16 11:15:14,121 INFO: Network monitoring armed (SCDynamicStore)
+2026-03-16 11:15:14,121 INFO: Screen lock monitoring armed (NSDistributedNotificationCenter)
+2026-03-16 11:15:14,122 INFO: Sleep/wake monitoring armed (NSWorkspace)
+2026-03-16 11:15:14,122 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 11:15:53,414 INFO: Shutting down...
+2026-03-16 11:30:46,186 INFO: Shutdown listener running on port 6000
+2026-03-16 11:30:46,499 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 11:30:46,500 INFO: HID monitoring armed
+2026-03-16 11:30:46,500 INFO: USB monitoring armed
+2026-03-16 11:30:46,549 INFO: Classic BT Device Connected: Magic Mouse
+2026-03-16 11:30:46,550 INFO: Classic BT monitoring armed
+2026-03-16 11:30:46,565 INFO: Display monitoring armed
+2026-03-16 11:30:46,566 INFO: Network monitoring armed
+2026-03-16 11:30:46,566 INFO: Screen lock monitoring armed
+2026-03-16 11:30:46,567 INFO: Sleep/wake monitoring armed
+2026-03-16 11:30:46,567 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 11:30:47,501 ERROR: Send error: [Errno 61] Connection refused
+2026-03-16 11:30:48,506 ERROR: Send error: [Errno 61] Connection refused
+2026-03-16 11:30:51,598 INFO: Shutting down...
+2026-03-16 11:30:52,601 ERROR: Send error: [Errno 61] Connection refused
+2026-03-16 11:31:03,845 INFO: Shutdown listener running on port 6000
+2026-03-16 11:31:04,146 INFO: Initial status snapshot completed: {'HID Devices': 'None', 'USB Devices': 'None', 'Bluetooth': '', 'GPU': 'Apple M4', 'Displays': 'iMac (spdisplays_internal)', 'Ethernet': 'Disconnected', 'WiFi': 'Disconnected'}
+2026-03-16 11:31:04,147 INFO: HID monitoring armed
+2026-03-16 11:31:04,147 INFO: USB monitoring armed
+2026-03-16 11:31:04,203 INFO: Classic BT Device Connected: Magic Mouse
+2026-03-16 11:31:04,203 INFO: Classic BT monitoring armed
+2026-03-16 11:31:04,217 INFO: Display monitoring armed
+2026-03-16 11:31:04,217 INFO: Network monitoring armed
+2026-03-16 11:31:04,217 INFO: Screen lock monitoring armed
+2026-03-16 11:31:04,218 INFO: Sleep/wake monitoring armed
+2026-03-16 11:31:04,218 INFO: All monitors armed. Entering run loop — zero polling.
+2026-03-16 11:31:14,545 INFO: Shutdown command accepted
+2026-03-16 11:31:14,546 INFO: Shutting down...
